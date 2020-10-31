@@ -1,0 +1,158 @@
+@media (max-width: 768px) {
+
+    .container {
+        width: 100%;
+    }
+    
+    /* header 
+    __________________________________________________________________________________*/
+
+    .header__title {
+        text-align: center;
+    }
+
+    .header__subtitle {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    /* navigation
+    __________________________________________________________________________________*/
+
+    .hamburger {
+        display: block;
+    }
+
+    .navigation__list {
+        display: none;
+    }
+
+    /* about 
+    __________________________________________________________________________________*/
+
+    .about__text {
+        width: 80%;
+        text-align: center;
+    }
+
+    .about__pictures {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10%;
+        margin-left: 15%;
+    }
+
+    .about__we-plan {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .about__we-manage {
+        padding: 15px 0px 131px 0px;
+        width: 140px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .about__we-build {
+        text-align: center;
+    }
+
+    .about__main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* services 
+    __________________________________________________________________________________*/
+
+    .services__heading {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .services__left {
+        width: 80%;
+        margin-left: 35%;
+    }
+
+    .services__right {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        text-align: center;
+    }
+
+    .services__title {
+        text-align: center;
+    }
+
+    .services__line {
+        margin-left: 35%;
+    }
+
+    .services__subtitle {
+        width: 80%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 10%;
+        font-size: medium;
+        
+    }
+
+    .services__button {
+        margin-left: 25%;
+    }
+
+    .services__cards {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 15%;
+    }
+
+    /* signup 
+    __________________________________________________________________________________*/
+
+    .signup > .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+
+    .signup__text {
+        padding-top: 7%;
+        padding-bottom: 7%;
+    }
+
+    .signup__title {
+        padding: 0;
+        font-size: smaller;
+    }
+
+    .signup__form {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 15%;
+    }
+
+    .signup__button {
+        margin-top: 5%;
+        margin-left: 15%;
+    }
+
+    /* company 
+    __________________________________________________________________________________*/
+
+    .company__main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .company__information {
+        text-align: center;
+        margin-left: 20%;
+    }
+}
