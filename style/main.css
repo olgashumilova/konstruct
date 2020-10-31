@@ -433,6 +433,10 @@ ________________________________________________________________________________
     margin-bottom: 20px;
 }
 
+.company > .container > .company__main > .company__information > .logo > .triangle {
+    border-width: 5px 5px 5px 0;
+}
+
 .company__title {
     margin-bottom: 20px;
     font: normal 11px/15px 'Open Sans', normal;
